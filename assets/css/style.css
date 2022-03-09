@@ -197,9 +197,10 @@ section {
     background: #024e76;
 }
 .contact h2 {
+    display: block;
     color: #fce138;
 }
-.contact iframe {
+.contact-info iframe {
     width: 400px;
     height: 400px;
 }
@@ -215,7 +216,7 @@ section {
     color: #fce138;
     font-size: 32px;
 }
-.contact-info p, .contact-info {
+.contact-info p, .contact-info address {
     margin: 20px 0;
     line-height: 1.5;
     font-size: 20px;
